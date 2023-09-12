@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width" initial-scale="1.0"/>
+        <link rel="stylesheet" type="text/css" href="flower1.css"/>
+        <link rel="stylesheet" type="text/css" href="css/all.css"/>
+        <link rel="stylesheet" type="text/js" href="flower.js"/>
+        <title>小花店網頁改造</title>
+    </head>
+    <body>
+        <header>
+            <img 
+            id="mark"
+            onclick="changemark()"
+            style="cursor: pointer ;"
+            src="ff.png"/>
+        </header>
+        <nav>
+            <div>
+                <span class="change1">TWD</span>
+                <span class="change1">中文</span>
+                <span class="change"><i class="fa-regular fa-heart"></i></span>
+                <span class="change"><i class="fa-regular fa-comment"></i></span>
+                <span class="change"><i class="fa-brands fa-instagram"></i></span>
+            </div>
+            <div class="biglimit">
+                <span 
+                onclick="press()"
+                class="limit">節慶限定
+                </span>
+                <span 
+                onclick="press1()"
+                class="limit">婚禮限定
+                </span>
+                <span 
+                onclick="press2()"
+                class="limit">購買花禮
+                </span>
+                <span 
+                onclick="press3()"
+                class="limit">花藝課程
+                </span>
+                <span 
+                onclick="press4()"
+                class="limit">客戶回饋
+                </span>
+                <span 
+                onclick="press5()"
+                class="limit">常見問題Q&A
+                </span>
+            </div>
+        </nav>
+        <main>
+            <div id="photo">
+                <img
+                src="all.png" width="500px" height="560px"/>
+            </div>
+            <section>
+                <div
+                class="display" 
+                id="season">節慶限定的資料
+                    <br>拉拉啦啦啦<br>拉拉啦啦啦
+                </div>
+                <div
+                class="display"
+                id="wedding">婚禮限定的資料
+                </div>
+                <div 
+                class="display"
+                id="flower">購買花禮的資料
+                </div>
+                <div 
+                class="display"
+                id="handmake">花藝課程的資料
+                </div>
+                <div 
+                class="display"
+                id="cusment">客戶回饋的資料
+                </div>
+                <div 
+                class="display"
+                id="question">常見問題的資料
+                </div>
+            </section>
+        </main>        
+        <footer>
+            <div class="content">
+                <a href="http://www.google.com/tw">About us</a></div>
+        </footer>
+        <script src="flower.js">
+        </script>
+    </body>
+</html>
